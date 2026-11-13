@@ -1,0 +1,16 @@
+ 
+const Header = () => {
+  return (
+    <div className=" bg-black w-full flex  font-maven justify-center p-1  mt-14 text-white  ">
+      <h1 className="flex justify-center">
+      IMENA Heritage Rwanda: handmade with heart, rooted in culture
+      </h1>
+      <a href="/aboutus1">
+        <button className="ml-3 text-yellow-500 hover:text-yellow-600 font-semibold">
+          Learn More
+        </button>
+      </a>
+    </div>
+  );
+};
+export default Header;
